@@ -9,7 +9,7 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 Projeyi klonlayın:
 ```bash
  
-git clone https://github.com/sizin-kullanici-adi/to-do-uygulamasi.git
+[git clone https://github.com/sizin-kullanici-adi/to-do-uygulamasi.git](https://github.com/SeniourMarquies/ToDoApp.git)
 ```
 
 Projeyi Visual Studio veya Visual Studio Code gibi bir geliştirme ortamında açın.
