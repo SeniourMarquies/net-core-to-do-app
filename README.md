@@ -7,7 +7,8 @@ Bu proje, ASP.NET Core MVC kullanılarak geliştirilen bir To-Do (Yapılacaklar 
 Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
 Projeyi klonlayın:
-'''bash 
+```bash
+ 
 git clone https://github.com/sizin-kullanici-adi/to-do-uygulamasi.git
 '''
 
