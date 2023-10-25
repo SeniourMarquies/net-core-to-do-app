@@ -9,6 +9,8 @@ Bu projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izley
 Projeyi klonlayın:
 ''' bash 
 git clone https://github.com/sizin-kullanici-adi/to-do-uygulamasi.git
+'''
+
 Projeyi Visual Studio veya Visual Studio Code gibi bir geliştirme ortamında açın.
 appsettings.json dosyasını düzenleyerek veritabanı bağlantı dizesini güncelleyin:
 
@@ -16,16 +18,19 @@ appsettings.json dosyasını düzenleyerek veritabanı bağlantı dizesini günc
 "ConnectionStrings": {
   "DefaultConnection": "VeritabanıBağlantıDizesi"
 }
+'''
 
 Proje klasöründe terminali açın ve aşağıdaki komutları sırasıyla çalıştırarak gerekli veritabanı tablolarını oluşturun:
 ''' bash 
 dotnet ef migrations add InitialCreate
 dotnet ef database update
+'''
 
 Projeyi başlatın:
 
 ''' bash 
 dotnet run
+'''
 
 Tarayıcınızda https://localhost:5001 veya https://localhost:5000 adresine giderek uygulamayı görüntüleyin.
 
